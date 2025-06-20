@@ -17,6 +17,11 @@ body {
   height: 72px;
   background: darkmagenta;
   color: white;
+  font-size: 2.5rem;
+  font-weight: bolder;
+  display: flex;
+  line-height: 72px;
+  padding-left: 20px;
 }
 
 .footer {
@@ -29,10 +34,23 @@ body {
   width: 300px;
   background: royalblue;
   box-sizing: border-box;
+  flex: 1;
+}
+
+.cards {
+  padding: 2%;
+  display: flex;
+  justify-content: start;
+  flex: 5;
+  flex-wrap: wrap;
+  align-items: center;
 }
 
 .card {
+  margin: 1%;
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
+  width: 28%;
+  height: 46%;
 }
